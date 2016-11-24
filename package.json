@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golovatuy/portfolio.git"
+  },
+  "author": "AlexG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/golovatuy/portfolio/issues"
+  },
+  "homepage": "https://github.com/golovatuy/portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.10"
+  }
+}
