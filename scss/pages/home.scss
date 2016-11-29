@@ -2,6 +2,24 @@
 @import "../global";
 
 // home page style
-body {
+.hero {
+  min-height: 60rem; //TODO: delete before commit
+  border-bottom: 10px solid $prime;
+}
 
+section {
+  min-height: 20rem; //TODO: delete before commit
+}
+
+.service-section {
+  .picture {
+    width: 16.5rem;
+    height: 16.5rem;
+    margin: 0 auto;
+  }
+
+  .service-description {
+    font-size: 1.6rem;
+    color: $gray;
+  }
 }

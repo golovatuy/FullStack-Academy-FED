@@ -3,35 +3,57 @@
   text-transform: uppercase;
   color: white;
   background: transparent;
-  padding: 2.2rem 5rem;
+  padding: 1.5rem 3rem;
   border: 2px solid white;
   width: auto;
   border-radius: 4rem;
-  margin: 0 2rem 2rem 0;
+  margin: 0 auto;
+  margin-bottom: 1rem;
   display: inline-block;
   font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+
+  @media (max-width: $screen-xs){
+    width: 100%;
+  }
+
 }
 
 .btn-prime {
   @extend %btn;
   background: $prime;
   border: 2px solid $prime;
+
+  &:hover {
+    background: $primeShade;
+  }
 }
 
 .btn-second {
   @extend %btn;
   background: $second;
   border: 2px solid $second;
+
+  &:hover {
+    background: $secondShade;
+  }
 }
 
 .btn-outline {
   @extend %btn;
+
+  &:hover {
+    background: #fff;
+    color: #000;
+  }
 }
 
 .btn-small {
-  padding: 1.5rem 3rem;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
 }
 
 .btn-large {
-  padding: 3rem 7rem;
+  padding: 1.9rem 5.1rem;
 }
