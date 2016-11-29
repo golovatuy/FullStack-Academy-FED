@@ -1,0 +1,37 @@
+%btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: white;
+  background: transparent;
+  padding: 2.2rem 5rem;
+  border: 2px solid white;
+  width: auto;
+  border-radius: 4rem;
+  margin: 0 2rem 2rem 0;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.btn-prime {
+  @extend %btn;
+  background: $prime;
+  border: 2px solid $prime;
+}
+
+.btn-second {
+  @extend %btn;
+  background: $second;
+  border: 2px solid $second;
+}
+
+.btn-outline {
+  @extend %btn;
+}
+
+.btn-small {
+  padding: 1.5rem 3rem;
+}
+
+.btn-large {
+  padding: 3rem 7rem;
+}

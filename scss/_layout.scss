@@ -1,0 +1,13 @@
+// ---------------------------
+// Layouts and containers
+// ---------------------------
+
+div, p, section, footer, header, aside {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: $mainContainer;
+  padding: $containerVerIndent $containerHorIndent;
+  margin: 0 auto;
+}
