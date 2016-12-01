@@ -3,8 +3,88 @@
 
 // home page style
 .hero {
-  min-height: 60rem; //TODO: delete before commit
   border-bottom: 10px solid $prime;
+  background: url("../../img/bg/bg-heor.jpg") no-repeat center center;
+  background-size: cover;
+
+  .hamburger {
+    color: #fff;
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+
+    &:hover {
+      color: $prime;
+    }
+
+    @media (max-width: $screen-sm){
+      display: block;
+    }
+  }
+
+  header {
+    padding-top: 4rem;
+
+    @media (max-width: $screen-md){
+      padding-top: 2rem;
+    }
+  }
+
+  .logo-name {
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: bold;
+
+    @media (max-width: $screen-md){
+      font-size: 1.8rem;
+    }
+  }
+
+  .hero-nav {
+    display: block;
+
+    @media (max-width: $screen-sm){
+      display: none;
+      margin-right: 15px;
+    }
+  }
+
+  .hero-nav-item {
+    display: inline-block;
+
+    @media (max-width: $screen-sm){
+      display: block;
+    }
+  }
+
+  .hero-subtitle {
+    margin-bottom: 10rem;
+
+    @media (max-width: $screen-md){
+      margin-bottom: 6rem;
+    }
+
+    @media (max-width: $screen-sm){
+      margin-bottom: 4rem;
+    }
+  }
+
+  .hero-title {
+    font-size: 4.8rem;
+    color: #fff;
+    margin-bottom: 8rem;
+    line-height: 1.4;
+
+    @media (max-width: $screen-md){
+      font-size: 3.4rem;
+      margin-bottom: 5rem;
+    }
+
+    @media (max-width: $screen-sm){
+      font-size: 2.4rem;
+      margin-bottom: 3rem;
+    }
+  }
 }
 
 section {
