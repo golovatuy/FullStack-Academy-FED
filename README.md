@@ -5,3 +5,5 @@ Every student after finishing Front-End Cource create portfolio project with all
 Branch for Step 1 - https://github.com/golovatuy/FullStack-Academy-FED/tree/step1
 ## STEP 2: Setting up Gulp tasks, build and start project
 Branch for Step 1 - https://github.com/golovatuy/FullStack-Academy-FED/tree/step2
+## STEP 3: Criating Custom Micro CSS-framework
+Branch for Step 1 - https://github.com/golovatuy/FullStack-Academy-FED/tree/step3
