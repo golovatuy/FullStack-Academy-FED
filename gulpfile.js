@@ -47,7 +47,7 @@ gulp.task('sass:prod', function () {
 });
 
 gulp.task('js:dev', function () {
-    return gulp.src(paths.script)
+    return gulp.src([paths.script, 'node_modules/bootstrap-sass/assets/javascripts/bootstrap/modal.js'])
         .pipe(sourcemaps.init())
         .pipe(size({showFiles: true}))
         .pipe(concat('build.js'))
@@ -57,7 +57,7 @@ gulp.task('js:dev', function () {
 });
 
 gulp.task('js:prod', function () {
-    return gulp.src(paths.script)
+    return gulp.src([paths.script, 'node_modules/bootstrap-sass/assets/javascripts/bootstrap/modal.js'])
         .pipe(concat('build.js'))
         .pipe(min())
         .pipe(gulp.dest(paths.jsdir));
