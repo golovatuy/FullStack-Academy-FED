@@ -7,6 +7,8 @@ Branch for Step 1 - https://github.com/golovatuy/FullStack-Academy-FED/tree/step
 Branch for Step 1 - https://github.com/golovatuy/FullStack-Academy-FED/tree/step2
 ## STEP 3: Creating Custom Micro CSS-framework
 Branch for Step 3 - https://github.com/golovatuy/FullStack-Academy-FED/tree/step3
+## STEP 4: Implemented 'Hero' section with nav and 'hamburger'
+Branch for Step 4 - https://github.com/golovatuy/FullStack-Academy-FED/tree/master
 
 ## WebSite link
 https://golovatuy.github.io/FullStack-Academy-FED/
