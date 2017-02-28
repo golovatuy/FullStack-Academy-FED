@@ -1,0 +1,1 @@
+$(function(){console.log("ham"),$("._hamburger").click(function(){$("._nav").slideToggle()})}),console.log("start module 1 logic"),console.log("start module 2 logic"),console.log("start module 3 logic");
