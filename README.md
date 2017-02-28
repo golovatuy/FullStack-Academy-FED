@@ -6,4 +6,7 @@ Branch for Step 1 - https://github.com/golovatuy/FullStack-Academy-FED/tree/step
 ## STEP 2: Setting up Gulp tasks, build and start project
 Branch for Step 1 - https://github.com/golovatuy/FullStack-Academy-FED/tree/step2
 ## STEP 3: Creating Custom Micro CSS-framework
-Branch for Step 1 - https://github.com/golovatuy/FullStack-Academy-FED/tree/step3
+Branch for Step 3 - https://github.com/golovatuy/FullStack-Academy-FED/tree/step3
+
+## WebSite link
+https://golovatuy.github.io/FullStack-Academy-FED/
